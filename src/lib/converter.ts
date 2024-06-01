@@ -3,13 +3,26 @@ import { Image } from "image-js";
 
 const converter = async (img: string) => {
   const rawImage = await Image.load(img);
+
+  const cropWidth = 1260;
+  const cropHeight = 540;
+  const startX = 330;
+  const startY = 330;
+
+
   const processedImage = rawImage
   .grey()
   .mask({
     algorithm: 'threshold',
-    threshold: 0.6,
+    threshold: 0.51,
   })
-  .invert();
+  .invert()
+  .crop({
+    x: startX,
+    y: startY,
+    width: cropWidth,
+    height: cropHeight
+  });
 
 
   const dataImage = processedImage.toDataURL();
