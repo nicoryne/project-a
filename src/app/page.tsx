@@ -1,7 +1,6 @@
 "use client";
-import TextCard from "@/components/navigations/Crads/textCard";
+import ValorantForm from "@/components/ValorantForm";
 import converter from "@/lib/converter";
-import Image from "next/image";
 import { useRef, useState } from "react";
 import { FaImage } from "react-icons/fa";
 
@@ -75,7 +74,7 @@ export default function Home() {
       <div className="my-10 md:px-20 px-5 space-y-10">
         {
           texts?.map((t, i) => {
-            return <TextCard key={i} i={i} t={t} />
+            return <ValorantForm key={i} i={i} t={t} />
           })
         }
       </div>
