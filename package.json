@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@supabase/ssr": "^0.3.0",
+    "@supabase/supabase-js": "^2.43.4",
     "@techstark/opencv-js": "^4.9.0-release.3",
+    "dotenv": "^16.4.5",
     "fs": "^0.0.1-security",
     "image-js": "^0.35.5",
     "jimp": "^0.22.12",
