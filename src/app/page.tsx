@@ -1,10 +1,9 @@
 "use client"
-import LoginPage from "./pages/login/page";
+import Router from "next/router";
+import LoginPage from "../pages/signin/page";
 
-export default function Home() {
+export default function App() {
     return (
-        <div>
-            <LoginPage />
-        </div>
+        
     )
 }

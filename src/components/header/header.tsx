@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const Header = () => {
+export default function Header() {
   return (
     <div
       className="text-white w-full flex justify-between items-center
@@ -18,15 +18,13 @@ const Header = () => {
             View Statistics
         </a>
 
-        <a href=""
-        target="_blank"
+        <Link href="../pages/add-match"
+        target=""
         referrerPolicy="no-referrer"
         className="flex items-center justify-center bg-white text-black text-base font-[600] px-5 py-2 rounded-md gap- hover:opacity-80 hover:transition transform">
             Add Match
-        </a>
+        </Link>
       </div>
     </div>
   );
 };
-
-export default Header;
