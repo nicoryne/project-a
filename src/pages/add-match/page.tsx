@@ -1,6 +1,6 @@
 "use client";
 import ValorantForm from "@/pages/add-match/valorant-form";
-import converter from "@/utils/ocr/converter";
+import converter from "@/lib/ocr/converter";
 import { useRef, useState } from "react";
 import { FaImage } from "react-icons/fa";
 
