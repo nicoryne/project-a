@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "../components/landing/LandingHeader";
+import Header from "./components/landing/LandingHeader";
 
 export const metadata: Metadata = {
   title: "Project A | CEL",
