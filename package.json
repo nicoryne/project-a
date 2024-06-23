@@ -17,9 +17,9 @@
     "fs": "^0.0.1-security",
     "image-js": "^0.35.5",
     "jimp": "^0.22.12",
-    "next": "14.2.3",
+    "next": "^14.2.3",
     "next-fonts": "^1.5.1",
-    "react": "^18",
+    "react": "^18.3.1",
     "react-dom": "^18",
     "react-icons": "^5.2.1",
     "tesseract.js": "^5.1.0"

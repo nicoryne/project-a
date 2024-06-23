@@ -1,13 +1,11 @@
-"use client"
-import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import LocalFont from "next/font/local";
 
-import Icon from "../../../public/icon.webp"; 
+import Icon from "../../public/icon.webp"; 
 
 const akiraExpanded = LocalFont({
-  src: "../../../public/fonts/AkiraExpanded.otf",
+  src: "../../public/fonts/AkiraExpanded.otf",
   display: "swap",
 });
 
